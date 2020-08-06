@@ -24,7 +24,7 @@ describe '/lib/display_board.rb' do
       expect(output).to include("   |   |  ")
     end
 
-    it 'separates rows with a line of 11 -' do
+    it 'separates rows with a line of 11 -'do
       output = capture_puts{ display_board }
 
       expect(output).to include("-----------")
