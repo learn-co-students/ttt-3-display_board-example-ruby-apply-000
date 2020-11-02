@@ -1,5 +1,4 @@
-def display_board
-   phrase = "Welcome To Tic Tac Toe"
+exit!def display_board
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
