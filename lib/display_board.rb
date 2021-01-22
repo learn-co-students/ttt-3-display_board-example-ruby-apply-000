@@ -1,7 +1,7 @@
 def display_board
   puts "   |   |   "
   puts "-----------"
-  puts "   |   |   "
+  puts "   | x |   "
   puts "-----------"
   puts "   |   |   "
 end
